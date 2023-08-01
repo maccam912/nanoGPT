@@ -1,0 +1,22 @@
+[[tool.pdm.source]]
+url = "https://download.pytorch.org/whl/cu118"
+name = "pytorch"
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Matt Koski", email = "maccam912@gmail.com"},
+]
+dependencies = [
+    "numpy>=1.25.2",
+    "transformers>=4.31.0",
+    "datasets>=2.14.2",
+    "tiktoken>=0.4.0",
+    "wandb>=0.15.7",
+    "tqdm>=4.65.0",
+    "torch>=2.0.1",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
